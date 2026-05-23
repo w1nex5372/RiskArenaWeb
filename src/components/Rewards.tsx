@@ -164,8 +164,8 @@ export default function Rewards() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-center text-slate-600 text-xs sm:text-sm max-w-2xl mx-auto px-2"
         >
-          RiskArena is in early demo. Rewards and ecosystem features are planned for future phases and are not guaranteed.
-          Early player activity is being tracked for potential future eligibility.
+          Early players may become eligible for founder recognition, in-game bonuses, leaderboard events and future ecosystem rewards.
+          Nothing is guaranteed — activity is tracked and eligibility will be confirmed in later phases.
         </motion.p>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import DemoStatus from '@/components/DemoStatus'
+import EarlyDev from '@/components/EarlyDev'
 import GameModes from '@/components/GameModes'
 import Classes from '@/components/Classes'
 import Loot from '@/components/Loot'
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <DemoStatus />
+      <EarlyDev />
       <GameModes />
       <Classes />
       <Loot />

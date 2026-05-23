@@ -90,7 +90,7 @@ export default function Navbar() {
                 rel="noopener noreferrer"
                 className="px-5 py-2 text-sm font-bold text-black bg-yellow-400 rounded hover:bg-yellow-300 transition-all duration-200 hover:shadow-[0_0_20px_rgba(251,191,36,0.4)] uppercase tracking-wide"
               >
-                Enter Arena
+                Join Tavern
               </Link>
             </div>
 
@@ -184,7 +184,7 @@ export default function Navbar() {
                     onClick={close}
                     className="w-full py-4 text-base font-black text-black bg-yellow-400 rounded text-center hover:bg-yellow-300 transition-all uppercase tracking-wide active:scale-95"
                   >
-                    Enter Arena
+                    Join Tavern
                   </Link>
                 </motion.div>
               </div>

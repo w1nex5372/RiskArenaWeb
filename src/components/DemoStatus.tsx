@@ -64,13 +64,13 @@ export default function DemoStatus() {
           className="text-center mb-8 sm:mb-12"
         >
           <span className="inline-block text-xs font-bold text-yellow-400 tracking-widest uppercase mb-3">
-            Current Status
+            Build Status
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-3 sm:mb-4">
-            What&apos;s Live in the Demo
+            What&apos;s In The Build
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-sm sm:text-base">
-            The arena is open. Here&apos;s what you can fight with today.
+            Here&apos;s the current state of the arena — what&apos;s working, what&apos;s in testing and what&apos;s coming.
           </p>
         </motion.div>
 

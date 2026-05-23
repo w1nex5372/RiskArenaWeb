@@ -2,9 +2,12 @@ export const siteConfig = {
   name: 'RiskArena',
   tagline: 'Dark Fantasy Arena. Inside Telegram.',
   description:
-    'Fight in 1v1 battles, raid bosses, climb leaderboards and collect rare loot. RiskArena is a dark fantasy arena game built as a Telegram Mini App.',
-  telegramUrl: 'https://t.me/RiskArenaBot',
-  waitlistUrl: '#waitlist',
+    'A dark fantasy arena game built as a Telegram Mini App. Join the community, follow development and be among the first to play.',
+  telegramUrl: 'https://t.me/RiskArenaTavern',
+  telegramNews: 'https://t.me/RiskArenaNews',
+  telegramBot: 'https://t.me/RiskArenaBot',
+  website: 'https://riskarena.online',
+  waitlistUrl: 'https://t.me/RiskArenaTavern',
 }
 
 export const navLinks = [
@@ -16,9 +19,9 @@ export const navLinks = [
 ]
 
 export const heroBadges = [
-  { label: 'Early Demo Live', color: 'green' as const },
+  { label: 'In Development', color: 'purple' as const },
   { label: 'Telegram Mini App', color: 'purple' as const },
-  { label: 'Season 1 Testing', color: 'gold' as const },
+  { label: 'Join Early', color: 'gold' as const },
 ]
 
 export const demoStatusCards = [
@@ -153,9 +156,9 @@ export const rewardCards = [
   {
     id: 'badge',
     icon: 'shield',
-    title: 'Early Player Badge',
+    title: 'Founder Recognition',
     description:
-      'Players who join during the demo phase may receive a permanent early supporter badge visible on their profile.',
+      'Early players may receive a permanent founder badge visible on their profile — recognising their support during development.',
     tag: 'Profile',
   },
   {
@@ -163,15 +166,15 @@ export const rewardCards = [
     icon: 'zap',
     title: 'Bonus Coins & XP Events',
     description:
-      'Early players get access to bonus coin multiplier events and boosted XP during Season 1 testing.',
+      'Early active players may receive access to bonus coin multiplier events and boosted XP during the testing period.',
     tag: 'In-Game',
   },
   {
     id: 'leaderboard',
     icon: 'trophy',
-    title: 'Leaderboard Prizes',
+    title: 'Leaderboard Events',
     description:
-      'Season 1 top performers will be eligible for leaderboard prizes when rewards go live.',
+      'Top performers in Season 1 may be eligible for leaderboard recognition and prizes when the rewards system launches.',
     tag: 'Competitive',
   },
   {
@@ -179,7 +182,7 @@ export const rewardCards = [
     icon: 'sparkles',
     title: 'Future Ecosystem Eligibility',
     description:
-      'Early supporters may become eligible for future token/NFT ecosystem rewards. Nothing guaranteed — planned for later phases.',
+      'Early community members may become eligible for future ecosystem rewards. No tokens or NFTs are guaranteed — this is planned for later phases only.',
     tag: 'Future',
     disclaimer: true,
   },

@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { motion, type Variants } from 'framer-motion'
-import { Swords, Users, Trophy } from 'lucide-react'
+import { Swords, Users, Trophy, Bell } from 'lucide-react'
 import { siteConfig, heroBadges } from '@/data/site'
 
 const badgeStyles = {
@@ -93,8 +93,8 @@ export default function Hero() {
             variants={itemVariants}
             className="text-sm sm:text-base md:text-lg text-slate-500 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed px-2"
           >
-            Fight in 1v1 battles, raid bosses, climb leaderboards and collect rare loot.
-            The arena is open. The first warriors are already inside.
+            RiskArena is in active development — a dark fantasy arena game built inside Telegram.
+            Follow the build, join the community and be among the first to play.
           </motion.p>
 
           {/* Stats row */}
@@ -129,15 +129,18 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-black text-base sm:text-lg rounded uppercase tracking-wide transition-all duration-200 hover:shadow-[0_0_30px_rgba(251,191,36,0.5)] active:scale-95"
             >
-              <Swords className="w-5 h-5" />
-              Play Demo
+              <Users className="w-5 h-5" />
+              Join Community
             </Link>
 
             <Link
-              href={siteConfig.waitlistUrl}
+              href={siteConfig.telegramNews}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-transparent border-2 border-slate-600 hover:border-yellow-400/50 text-slate-300 hover:text-yellow-400 font-bold text-base sm:text-lg rounded uppercase tracking-wide transition-all duration-200 active:scale-95"
             >
-              Join Waitlist
+              <Bell className="w-5 h-5" />
+              Follow Development
             </Link>
           </motion.div>
 
