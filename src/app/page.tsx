@@ -2,6 +2,8 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import DemoStatus from '@/components/DemoStatus'
 import GameModes from '@/components/GameModes'
+import Classes from '@/components/Classes'
+import Loot from '@/components/Loot'
 import Rewards from '@/components/Rewards'
 import Roadmap from '@/components/Roadmap'
 import FinalCTA from '@/components/FinalCTA'
@@ -14,6 +16,8 @@ export default function Home() {
       <Hero />
       <DemoStatus />
       <GameModes />
+      <Classes />
+      <Loot />
       <Rewards />
       <Roadmap />
       <FinalCTA />

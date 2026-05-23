@@ -9,6 +9,8 @@ export const siteConfig = {
 
 export const navLinks = [
   { label: 'Arena', href: '#game-modes' },
+  { label: 'Classes', href: '#classes' },
+  { label: 'Loot', href: '#loot' },
   { label: 'Rewards', href: '#rewards' },
   { label: 'Roadmap', href: '#roadmap' },
 ]

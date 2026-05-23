@@ -50,7 +50,7 @@ const cardVariants: Variants = {
 
 export default function GameModes() {
   return (
-    <section id="game-modes" className="py-24 relative overflow-hidden">
+    <section id="game-modes" className="py-20 sm:py-28 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#080b1a] via-[#0d1123] to-[#080b1a]" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-red-950/20 rounded-full blur-[100px] pointer-events-none" />

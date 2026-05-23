@@ -53,13 +53,13 @@ const containerVariants: Variants = {
 }
 
 const cardVariants: Variants = {
-  hidden: { opacity: 0, x: -20 },
-  visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: 'easeOut' } },
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
 }
 
 export default function Roadmap() {
   return (
-    <section id="roadmap" className="py-14 sm:py-24 relative overflow-hidden">
+    <section id="roadmap" className="py-20 sm:py-28 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#080b1a] via-[#0d1123] to-[#080b1a]" />
 
       <div className="container-arena relative z-10">

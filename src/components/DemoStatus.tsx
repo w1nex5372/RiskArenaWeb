@@ -51,7 +51,7 @@ const cardVariants: Variants = {
 
 export default function DemoStatus() {
   return (
-    <section id="demo-status" className="py-14 sm:py-20 relative">
+    <section id="demo-status" className="py-20 sm:py-28 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-[#080b1a] via-[#0d1123] to-[#080b1a]" />
 
       <div className="container-arena relative z-10">
